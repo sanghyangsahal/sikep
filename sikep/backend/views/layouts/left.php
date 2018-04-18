@@ -30,8 +30,6 @@
             [
                 'options' => ['class' => 'sidebar-menu tree', 'data-widget'=> 'tree'],
                 'items' => [
-                    ['label' => 'Menu Yii2', 'options' => ['class' => 'header']],
-                    ['label' => 'Gii', 'icon' => 'file-code-o', 'url' => ['/gii']],
                     ['label' => 'Gii', 'icon' => 'file-code-o', 'url' => ['/gii']],
                     ['label' => 'Debug', 'icon' => 'dashboard', 'url' => ['/debug']],
                     ['label' => 'Login', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],
@@ -39,7 +37,13 @@
                         'icon' => 'tools',
                         'url' => '#',
                         'items' => [
-                            ['label' => 'Agama', 'icon' => 'file-code-o', 'url' => ['/refagama/index'],],
+                            ['label' => 'Agama', 'icon' => 'moon-o', 'url' => ['/refagama/index'],],
+                            ['label' => 'Alasan Pensiun', 'icon' => 'user', 'url' => ['/refalasanpensiun/index'],],
+                            ['label' => 'Bentuk Muka', 'icon' => 'user', 'url' => ['/refbentukmuka/index'],],
+                            ['label' => 'Biaya Transport Mutasi', 'icon' => 'user', 'url' => ['/refbiayatransportmutasi/index'],],
+                            ['label' => 'Diklat Fungsional', 'icon' => 'user', 'url' => ['/refdiklatfungsional/index'],],
+                            ['label' => 'Diklat Kelompok', 'icon' => 'user', 'url' => ['/refdiklatkelompok/index'],],
+                            ['label' => 'Diklat Kualifikasi Kelulusan', 'icon' => 'user', 'url' => ['/refdiklatkualifikasikelulusan/index'],],
                         ],
                     ],
                     [
@@ -49,23 +53,6 @@
                         'items' => [
                             ['label' => 'Gii', 'icon' => 'file-code-o', 'url' => ['/gii'],],
                             ['label' => 'Debug', 'icon' => 'dashboard', 'url' => ['/debug'],],
-                            [
-                                'label' => 'Level One',
-                                'icon' => 'circle-o',
-                                'url' => '#',
-                                'items' => [
-                                    ['label' => 'Level Two', 'icon' => 'circle-o', 'url' => '#',],
-                                    [
-                                        'label' => 'Level Two',
-                                        'icon' => 'circle-o',
-                                        'url' => '#',
-                                        'items' => [
-                                            ['label' => 'Level Three', 'icon' => 'circle-o', 'url' => '#',],
-                                            ['label' => 'Level Three', 'icon' => 'circle-o', 'url' => '#',],
-                                        ],
-                                    ],
-                                ],
-                            ],
                         ],
                     ],
                 ],
