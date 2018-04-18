@@ -4,16 +4,8 @@ $config = [
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => 'FAeg0WSQ8KpiFoEFHT9DiEWtD7McOU53',
+            'cookieValidationKey' => 'qT9LA14M6LGzp5kYcVgVD9-fr2-psTdH',
         ],
-		'db' => [
-			'class' => 'yii\db\Connection',
-			'dsn' => 'mysql:host=localhost;dbname=sikep',
-			'username' => 'root',
-			'password' => '',
-			'charset' => 'utf8',
-			'tablePrefix'=>'cm_'
-			],
     ],
 ];
 
