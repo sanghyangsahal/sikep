@@ -6,7 +6,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model backend\models\Refjenisdiklatteknis */
 
-$this->title = 'CreateReferensi Jenis Diklat Teknis';
+$this->title = 'Create Referensi Jenis Diklat Teknis';
 $this->params['breadcrumbs'][] = ['label' => 'Referensi Jenis Diklat Teknis', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
