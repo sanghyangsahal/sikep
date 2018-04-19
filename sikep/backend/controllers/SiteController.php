@@ -60,6 +60,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        $user = \Yii::$app->user->identity;
         return $this->render('index');
     }
 
